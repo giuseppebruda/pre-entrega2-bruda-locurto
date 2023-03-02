@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="shortcut icon" href="../recursos/logos/favicom.png" type="image/x-icon">
+    <title>contacto-diamond</title>
+</head>
+<body>
+        <nav>
+            <a href="../index.html" class="nav-home">home</a>
+            <a href="./autos.html"class="nav-home">autos</a>
+            <a href="./contacto.html"class="nav-home">contacto</a>
+            <a href="./financiacion.html"class="nav-home">financiacion</a>
+            <a href="./nosotros.html"class="nav-home">nosotros</a>
+            <a href="./post-venta.html"class="nav-home">post-venta</a>
+    
+        </nav>
+
+        <h3>contacta con nosotros </h3>
+<form action="procesar.php" method="post">
+
+<p>
+        <label for="nombre">ingrese su nombre: </label>
+        <input type="text"name="nombre" placeholder="imgrese su nombre">
+    </p>
+<p>
+        <label for="apellido">ingrese su apellido: </label>
+        <input type="text"name="apellido" placeholder="ingrese su apellido">
+    </p>
+
+    <p>
+        <label for="email">ingrese su correo electronico: </label>
+        <input type="email" name="email"placeholder=hola@hotmail.com>
+    </p>
+    
+    <!--input tipo radio-->
+
+    <h3>elija su tipo de financiacion: </h3>
+    <label for="tipo-financiacion">100% financiado</label>
+    <input type="radio" name="tipo-financiacion" value="100%">
+
+    <label for="tipo-financiacion">70% financiado</label>
+    <input type="radio" name="tipo-financiacion" value="70%">
+
+    <label for="tipo-financiacion">50% financiado</label>
+    <input type="radio" name="tipo-financiacion" value="50%">
+
+    <label for="tipo-financiacion">20% financiado</label>
+    <input type="radio" name="tipo-financiacion" value="20%">
+
+    <!--input tipo checkbox-->
+    <h3>elija los vehiculos que le interecen: </h3>
+    <label for="interes">McLaren 720S</label>
+    <input type="checkbox" name="interes" value="McLaren 720S">
+
+    <label for="interes">Ferrari F8</label>
+    <input type="checkbox" name="interes" value="Ferrari F8">
+
+    <label for="interes">Aston Martin DBS Superleggera</label>
+    <input type="checkbox" name="interes" value="Aston Martin DBS Superleggera">
+
+    <!--menu desplegable-->
+    <p>
+    <h3>elija su sexo</h3>
+    <select name="" > 
+        <option value="M">Men</option>
+        <option value="w">Woman</option>
+        <option value="NB">not binary</option>
+    </select>
+</p>
+    <!--textarea-->
+    <h3>dejanos tu comentario</h3>
+
+    <textarea name="mensaje" cols="30" rows="10"></textarea>
+<p>
+    <button type="submit">enviar</button>
+    <button type="reset">borrar formulario</button>
+</p>
+
+</form>
+
+<footer>
+    <img class="img-footer" src="../recursos/img footer/llamada-telefonica.png" alt="llamada">
+    <img class="img-footer" src="../recursos/img footer/instagram.png" alt="instagram">
+    <img class="img-footer" src="../recursos/img footer/facebook.png" alt="facebook" >
+    <h3>+581150297715</h3>
+    <h3>diamond consesionario</h3>
+    <h3>diamond consesionario</h3>
+        </footer>
+</body>
+</html>

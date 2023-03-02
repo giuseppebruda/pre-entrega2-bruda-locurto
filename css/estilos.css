@@ -1,0 +1,92 @@
+/*fuentes*/
+@font-face {
+    font-family: "roboto-regular";
+    src: url(../fuentes/Roboto-Regular.ttf);
+}
+@font-face {
+    font-family: "russo-regular";
+    src: url(../fuentes/RussoOne-Regular.ttf);
+}
+
+/*selector universal*/
+*{
+    background-color: rgba(129, 150, 149, 0.856);
+}
+/*barra de navegacion l*/
+.nav-home{
+    display: inline-block;
+    background: rgba(218, 214, 20, 0.027);
+    color: rgb(0, 0, 0);
+    padding: 10px 30px;
+    border: 3px solid rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: "roboto-regular";
+    font-size: 25px;
+}
+nav{
+    background: rgb(31, 84, 163);
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+/*nombre de la empresa y un pequeño eslogan*/ 
+h1{
+    text-align: center;
+color: rgb(12, 10, 10);
+font-size: 100px;
+background-color:rgb(31, 84, 163) ;
+font-family:"russo-regular"
+}
+p{
+    text-align: center;
+    font-size: 50px;
+    color: black;
+    font-family:"roboto-regular";
+}
+/* ordenando imagenes y textos*/
+#fotos-autos{
+    display: flex;
+    justify-content: space-around;
+}
+.img{
+    display: inline-block;
+    border: 10px solid black;
+}
+h2{
+    font-family: "russo-regular";
+    font-size: 25px;
+    padding: 2px 2px;
+    border: 2px black solid;
+}
+#nombres-autos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+article{
+    font-family: "roboto-regular" ;
+    font-size: 20px;
+    border: 2px solid black;
+}
+.article{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    font-size: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+.img-footer{
+    width: 80px;
+    height: 80px;
+}
+h3{font-family:"roboto-regular";
+font-size: 20px;
+text-decoration: dashed;
+}
+label{
+    font-family:"roboto-regular" ;
+    font-size: 25px;
+}
+
