@@ -8,41 +8,63 @@
     src: url(../fuentes/RussoOne-Regular.ttf);
 }
 
-/*selector universal*/
-*{
-    background-color: rgba(129, 150, 149, 0.856);
-}
-/*barra de navegacion l*/
-.nav-home{
-    display: inline-block;
-    background: rgba(218, 214, 20, 0.027);
-    color: rgb(0, 0, 0);
-    padding: 10px 30px;
-    border: 3px solid rgb(0, 0, 0);
-    text-decoration: none;
-    font-family: "roboto-regular";
-    font-size: 25px;
-}
+/*barra de navegacion */
 nav{
-    background: rgb(31, 84, 163);
-    padding: 10px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    margin-top: 30px;
 }
-/*nombre de la empresa y un pequeño eslogan*/ 
-h1{
-    text-align: center;
-color: rgb(12, 10, 10);
-font-size: 100px;
-background-color:rgb(31, 84, 163) ;
-font-family:"russo-regular"
-}
-p{
-    text-align: center;
-    font-size: 50px;
+a{
+    font-size: 37px;
     color: black;
-    font-family:"roboto-regular";
+    font-family: "russo-regular";
+    text-decoration: none;
+    cursor: pointer;
 }
+a:hover{
+    background: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 30px;
+}
+/*encabezado*/
+#encabezado{
+    background-image: url(../recursos/backgraund.img/backgraund-2-recortada.jpg);
+    background-repeat: no-repeat;
+    height: 600px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+#encabezado::before{
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-image: url(../recursos/backgraund.img/backgraund-2-recortada.jpg);
+    opacity: .5;
+
+}
+.encabezado__titulo{
+    font-family: "russo-regular";
+    font-size: 55px;
+    padding: 5px;
+    position: relative;
+}
+.encabezado__subtitulo{
+    font-family: "russo-regular";
+    font-size: 20px;
+    position: relative;
+
+}
+
 /* ordenando imagenes y textos*/
 #fotos-autos{
     display: flex;
@@ -54,7 +76,7 @@ p{
 }
 h2{
     font-family: "russo-regular";
-    font-size: 25px;
+    font-size: 45px;
     padding: 2px 2px;
     border: 2px black solid;
 }
