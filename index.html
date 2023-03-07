@@ -5,48 +5,59 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./recursos/logos/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>home-diamond</title>
 </head>
 <body>
 <header id="inicio">
-
-   <nav>
-    <a href="./index.html"><img src="./recursos/logos/diamante-logo.png" alt="logo empresa" width="100px">
-    </a>
-    <a href="./paginas/autos.html">autos</a>
-    <a href="./paginas/financiacion.html">financiacion</a>
-    <a href="./paginas/nosotros.html">nosotros</a>
-    <a href="./paginas/contacto.html">contacto</a>
-    <a href="./paginas/post-venta.html">post venta</a>
+    <nav>
+        <a href="./index.html"><img src="./recursos/logos/diamante-logo.png" alt="logo empresa" width="100px">
+        </a>
+        <a href="./paginas/autos.html">autos</a>
+        <a href="./paginas/financiacion.html">financiacion</a>
+        <a href="./paginas/nosotros.html">nosotros</a>
+        <a href="./paginas/contacto.html">contacto</a>
+        <a href="./paginas/post-venta.html">post venta</a>
     </nav>
     <section id="encabezado">
         <h1 class="encabezado__titulo">diamond car</h1>
         <p class="encabezado__subtitulo">la mejor opcion para tu nuevo 0 km, autos 100% financiados. 
             con los mejores precios del mercado y siempre atendido por profecionales </p>
-        </section>
-    <div id="fotos-autos">
-        <img class="img" src="./recursos/autos/peug.jpg" alt="auto.peugeot" width="400px">
-        <img class="img" src="./recursos/autos/4x4.jpg" alt="camioneta4x4" width="400px">
-        <img src="./recursos/autos/corola.jpg"class="img" alt="auto.toyota"width="400px">
-        </div>
-
+        </section> 
+    </header>
+<!--tarjeras bootstrap-->
+    <main>
+        <!--tarjeta 1-->
+    <div id="container"> 
+        <div></div>   
+        <div class="card" style="width: 18rem;">
+            <img src="./recursos/autos/4x4.jpg" class="card-img-top" alt="4x4">
+            <div class="card-body">
+                <h5 class="card-title">Hilux 2022 Doble cabina 0KM</h5>
+                <p class="card-text">Bajo la musculosa y gran carrocería del Hilux se esconde un chasis tradicional de pick-up y vehículo todoterreno. Se trata de una plataforma de largueros y travesaños con suspensión trasera de ballesta diseñada especialmente para soportar grandes cargas, una gran capacidad off-road y una elevada versatilidad de carrocerías..</p>
+                <!--tarjeta 2-->
+            </div>         
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="./recursos/autos/peugeot.jpg" class="card-img-top" alt="4x4">
+                <div class="card-body">
+                    <h5 class="card-title">Peugeot 208 0KM</h5>
+                    <p class="card-text">Con su nuevo estilo tecnológico, look deportivo y un adelanto al futuro, el Nuevo Peugeot 208 es irresistible. Su diseño de proporciones exactas, genera un vehículo dinámico y bien equilibrado, inspirado en el concept Fractal</p>
+                </div>   
+                    <!--tarjeta 3-->
+            </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./recursos/autos/corola.jpg" class="card-img-top" alt="4x4">
+                    <div class="card-body">
+                        <h5 class="card-title">Toyota Corolla 0 km</h5>
+                        <p class="card-text">Los modelos Corolla sedán 2023 cuentan con ocho bolsas de aire estándar y el sistema Star Safety de Toyota, que incluye un mejor control de estabilidad del vehículo, control de tracción, distribución electrónica de frenado, asistencia de frenado, sistema de frenado antibloqueo y tecnología de parada inteligente.</p>
+                    </div>
+                </div>   
+    </div> <!--div container-->
         
-            <div id="nombres-autos">
-            <h2>Peugeot 208 0KM</h2>
-            <H2>Hilux 2022 Doble cabina 0KM </H2>
-            <h2>Toyota Corolla</h2>
-        </div>
-        <section class="article">
-        <article>Con su nuevo estilo tecnológico, look deportivo y un adelanto al futuro, el Nuevo Peugeot 208 es irresistible. Su diseño de proporciones exactas, genera un vehículo dinámico y bien equilibrado, inspirado en el concept Fractal.
-        DISEÑO
-        </article>
+    </main>
         
-        <article>Bajo la musculosa y gran carrocería del Hilux se esconde un chasis tradicional de pick-up y vehículo todoterreno. Se trata de una plataforma de largueros y travesaños con suspensión trasera de ballesta diseñada especialmente para soportar grandes cargas, una gran capacidad off-road y una elevada versatilidad de carrocerías.</article>
-
-        <article>Los modelos Corolla sedán 2023 cuentan con ocho bolsas de aire estándar y el sistema Star Safety de Toyota, que incluye un mejor control de estabilidad del vehículo, control de tracción, distribución electrónica de frenado, asistencia de frenado, sistema de frenado antibloqueo y tecnología de parada inteligente</article>
-        </section>
-        </main>
         <h2>Todo a la vista, un plan de ahorro 100% transparente</h2>
         <ul>
             <li>planes de 84 y 120 cuotas</li>
@@ -63,6 +74,6 @@
 <h3>diamond consesionario</h3>
 <h3>diamond consesionario</h3>
     </footer>
-    
+    <script src="./bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>    
