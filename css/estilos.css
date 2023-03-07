@@ -7,6 +7,10 @@
     font-family: "russo-regular";
     src: url(../fuentes/RussoOne-Regular.ttf);
 }
+* {
+padding: 15px;
+padding-top: 0%;}
+
 
 /*barra de navegacion */
 nav{
@@ -15,14 +19,14 @@ nav{
     align-items: center;
     margin-top: 30px;
 }
-a{
+.navbar__link{
     font-size: 37px;
     color: black;
     font-family: "russo-regular";
     text-decoration: none;
     cursor: pointer;
 }
-a:hover{
+.navbar__link:hover{
     background: black;
     color: white;
     border-radius: 5px;
@@ -55,6 +59,7 @@ a:hover{
 .encabezado__titulo{
     font-family: "russo-regular";
     font-size: 55px;
+    color: rgb(36, 137, 187);
     padding: 5px;
     position: relative;
 }
@@ -62,42 +67,37 @@ a:hover{
     font-family: "russo-regular";
     font-size: 20px;
     position: relative;
+    justify-content: center;
 
 }
-
-/* ordenando imagenes y textos*/
-#fotos-autos{
-    display: flex;
-    justify-content: space-around;
-}
-.img{
-    display: inline-block;
-    border: 10px solid black;
-}
-h2{
+ #inicio{
+    border: 35px;
+    padding: 35px;
+ }
+/*estilos para las tarjetas*/
+.tarjetas__titulo{
     font-family: "russo-regular";
-    font-size: 45px;
-    padding: 2px 2px;
-    border: 2px black solid;
-}
-#nombres-autos{
-    display: flex;
-    justify-content: space-evenly;
+    font-size: 30px;
+    color:  rgb(36, 137, 187);
+    font-style: italic;
 }
 
-article{
-    font-family: "roboto-regular" ;
+.tarjeta__texto{
+    font-family: "roboto-regular";
     font-size: 20px;
-    border: 2px solid black;
+    color: black;
+
 }
-.article{
-    display: flex;
-    justify-content: space-around;
+.tarjetas__borde{
+    padding: 2px;
 }
-li{
-    font-size: 20px;
-    text-align: left;
-    text-decoration: none;
+
+/*desarrollando el articulo sobre los planes*/
+.planes__titulo{
+    font-family: "russo-regular";
+    font-size: 30px;
+    color: rgb(36, 137, 187);
+
 }
 .img-footer{
     width: 80px;
@@ -112,8 +112,7 @@ label{
     font-size: 25px;
 }
 
-.card{
-    display: flex;
-    flex-direction: ;
 
-}
+
+
+
