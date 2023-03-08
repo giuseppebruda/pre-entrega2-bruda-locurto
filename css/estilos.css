@@ -97,20 +97,57 @@ nav{
     font-family: "russo-regular";
     font-size: 30px;
     color: rgb(36, 137, 187);
+}
+.planes__lista li{
+font-family: "roboto regular";
+font-size: 20px;
+list-style-type: none;
+}
+.planes__img{
+    height: 500px;
+    width: 500px;
+}
+/*desarrollando el footer*/
+footer{
+    background-color: rgb(255, 255, 255);
+}
+.box__footer{
+    max-width: 1200px;
+    display: flex;
+    margin: auto;
+}
+.colunm1__footer{
+    max-width: 400px;
+}
+.titulos__footer{
+    font-family: "russo regular";
+    font-size: 30px;
 
 }
-.img-footer{
-    width: 80px;
-    height: 80px;
+.colunm1__footer p{
+    font-size: 20px;
+    font-family: "roboto regular";
 }
-h3{font-family:"roboto-regular";
-font-size: 20px;
-text-decoration: dashed;
+.colunm2__footer {
+    max-width: 400px;
 }
-label{
-    font-family:"roboto-regular" ;
-    font-size: 25px;
+
+.row2__footer{
+    display: flex;
+    margin-top: 20px;
 }
+.row2__footer img{
+    width: 65px;
+    height: 66px;
+    background-size: cover;
+}
+.texto__footer{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: "roboto regular"
+}
+
 
 
 
