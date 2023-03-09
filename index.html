@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./recursos/logos/favicom.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/a24dbd5e9b.css" crossorigin="anonymous">
     <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/estilos.css">
     <title>home-diamond</title>
@@ -12,6 +13,20 @@
 <body>
 <header id="inicio">
     <nav id="navbar">
+        <!--navbar responsive-->
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./paginas/autos.html">autos</a></li>
+            <li><a class="dropdown-item" href="./paginas/financiacion.html">financiacion</a></li>
+            <li><a class="dropdown-item" href="./paginas/nosotros.html">nosotros</a></li>
+            <li><a class="dropdown-item" href="./paginas/contacto.html">contacto</a></li>
+            <li><a class="dropdown-item" href="./paginas/post-venta.html">post venta</a></li>
+        </ul>
+        </div>
+        <!--navbar escritorio-->
         <a href="./index.html"><img src="./recursos/logos/diamante-logo.png" alt="logo empresa" width="100px">
         </a>
         <a class="navbar__link" href="./paginas/autos.html">autos</a>
@@ -29,7 +44,7 @@
 <!--tarjeras bootstrap-->
     <main>
     <div class="tarjetas">
-    <div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="row row-cols-1 row-cols-md-3 g-4" >
         <!--tarjeta 1-->
             <div class="col tarjetas__borde">
                 <div class="card h-100 border border-0">
@@ -56,7 +71,7 @@
             <!--tarjeta 3-->
             <div class="col tarjetas__borde">
                 <div class="card h-100 border border-0">
-                <img src="./recursos/autos/peug.jpg" class="card-img-top " alt="Peugeot" height="400px" >
+                <img src="./recursos/autos/peu.jpg" class="card-img-top " alt="Peugeot" height="400px" >
                 <div class="card-body">
                     <h5 class="card-title tarjetas__titulo">Peugeot 208 0KM</h5>
                     <p class="card-text tarjeta__texto">Con su nuevo estilo tecnológico, look deportivo y un adelanto al futuro, el Nuevo Peugeot 208 es irresistible. Su diseño de proporciones exactas, genera un vehículo dinámico y bien equilibrado, inspirado en el concept Fractal</p>
@@ -98,21 +113,21 @@
     <div class="colunm2__footer">
     <h1 class="titulos__footer">contactanos</h1>
     <div class="row2__footer"> 
-        <img src="../diamond-car-consesionario/recursos/img footer/facebook.png" alt="facebook">
+        <img src="./recursos/img footer/facebook.png" alt="facebook">
         <label class="texto__footer">
             diamond car ar
         </label>
     </div>
 
     <div class="row2__footer"> 
-        <img src="../diamond-car-consesionario/recursos/img footer/instagram.png">
+        <img src="./recursos/img footer/instagram.png">
         <label class="texto__footer">
             diamond.car.ar
         </label>
     </div>
 
         <div class="row2__footer"> 
-            <img src="../diamond-car-consesionario/recursos/img footer/llamada-telefonica.png">
+            <img src="./recursos/img footer/llamada-telefonica.png">
             <label class="texto__footer">
                 +58-11-2049-5576
             </label>
@@ -121,12 +136,13 @@
     </div>
     
     <div class="colunm3__footer">
-        <div class="row3__footer"></div>
         <h1 class="titulos__footer">nuetras sucursales</h1>
-        <img src="../diamond-car-consesionario/recursos/img footer/casa.png" alt="home">
+        <div class="row3__footer">
+        <img src="./recursos/img footer/casa.png" alt="home">
         <label class="texto__footer">av.rivadavia 1866, capital federal buenos aires argentina </label>
+    </div>
     <div class="row3__footer">
-        <img src="../diamond-car-consesionario/recursos/img footer/casa.png" alt="home">
+        <img src="./recursos/img footer/casa.png" alt="home">
         <label class="texto__footer">av. independecia 3675, merlo provincia de buenos aires</label>
     </div>
     </div>

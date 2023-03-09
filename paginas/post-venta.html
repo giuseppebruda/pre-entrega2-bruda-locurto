@@ -4,27 +4,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../recursos/logos/favicom.png" type="image/x-icon">
     <title>post-venta</title>
 </head>
 <body>
-    <nav>
-        <a href="../index.html" class="nav-home">home</a>
-        <a href="./autos.html"class="nav-home">autos</a>
-        <a href="./contacto.html"class="nav-home">contacto</a>
-        <a href="./financiacion.html"class="nav-home">financiacion</a>
-        <a href="./nosotros.html"class="nav-home">nosotros</a>
-        <a href="./post-venta.html"class="nav-home">post-venta</a>
-
+    <nav id="navbar">
+        <!--navbar responsive-->
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./paginas/autos.html">autos</a></li>
+            <li><a class="dropdown-item" href="./paginas/financiacion.html">financiacion</a></li>
+            <li><a class="dropdown-item" href="./paginas/nosotros.html">nosotros</a></li>
+            <li><a class="dropdown-item" href="./paginas/contacto.html">contacto</a></li>
+            <li><a class="dropdown-item" href="./paginas/post-venta.html">post venta</a></li>
+        </ul>
+        </div>
+        <!--navbar escritorio-->
+        <a href="../index.html"><img src="../recursos/logos/diamante-logo.png" alt="logo empresa" width="100px">
+        </a>
+        <a class="navbar__link" href="./autos.html">autos</a>
+        <a class="navbar__link" href="./financiacion.html">financiacion</a>
+        <a class="navbar__link" href="./nosotros.html">nosotros</a>
+        <a class="navbar__link" href="./contacto.html">contacto</a>
+        <a class="navbar__link" href="./post-venta.html">post venta</a>
     </nav>
-    <footer>
-        <img class="img-footer" src="../recursos/img footer/llamada-telefonica.png" alt="llamada">
-        <img class="img-footer" src="../recursos/img footer/instagram.png" alt="instagram">
-        <img class="img-footer" src="../recursos/img footer/facebook.png" alt="facebook" >
-        <h3>+581150297715</h3>
-        <h3>diamond consesionario</h3>
-        <h3>diamond consesionario</h3>
-            </footer>
+
+
+<footer>
+<div class="box__footer">
+
+    <div class="colunm1__footer">
+    <h1 class="titulos__footer">mas informacion de la compañia</h1>
+
+    <p class="texto__footer">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo neque qui, voluptatum et autem commodi obcaecati tempore dicta voluptas fuga dignissimos saepe modi at ipsam error voluptates consequatur deleniti recusandae.
+    </p>
+    </div>
+    <div class="colunm2__footer">
+    <h1 class="titulos__footer">contactanos</h1>
+    <div class="row2__footer"> 
+        <img src="../recursos/img footer/facebook.png" alt="facebook">
+        <label class="texto__footer">
+            diamond car ar
+        </label>
+    </div>
+
+    <div class="row2__footer"> 
+        <img src="../recursos/img footer/instagram.png">
+        <label class="texto__footer">
+            diamond.car.ar
+        </label>
+    </div>
+
+        <div class="row2__footer"> 
+            <img src="../recursos/img footer/llamada-telefonica.png">
+            <label class="texto__footer">
+                +58-11-2049-5576
+            </label>
+        </div>
+
+    </div>
+    
+    <div class="colunm3__footer">
+        <h1 class="titulos__footer">nuetras sucursales</h1>
+        <div class="row3__footer">
+        <img src="../recursos/img footer/casa.png" alt="home">
+        <label class="texto__footer">av.rivadavia 1866, capital federal buenos aires argentina </label>
+    </div>
+    <div class="row3__footer">
+        <img src="../recursos/img footer/casa.png" alt="home">
+        <label class="texto__footer">av. independecia 3675, merlo provincia de buenos aires</label>
+    </div>
+    </div>
+    </div> 
+    </footer>
+    <script src="../bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

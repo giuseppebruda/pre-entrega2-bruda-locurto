@@ -4,20 +4,174 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilos.css">
     <link rel="shortcut icon" href="../recursos/logos/favicom.png" type="image/x-icon">
     <title>autos-diamond</title>
 </head>
 <body>
-        <nav>
-            <a href="../index.html" class="nav-home">home</a>
-            <a href="./autos.html"class="nav-home">autos</a>
-            <a href="./contacto.html"class="nav-home">contacto</a>
-            <a href="./financiacion.html"class="nav-home">financiacion</a>
-            <a href="./nosotros.html"class="nav-home">nosotros</a>
-            <a href="./post-venta.html"class="nav-home">post-venta</a>
-    
-        </nav>
-    
+    <header>
+    <nav id="navbar">
+        <!--navbar responsive-->
+        <div class="dropdown">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Menu 
+        </button>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="./paginas/autos.html">autos</a></li>
+            <li><a class="dropdown-item" href="./paginas/financiacion.html">financiacion</a></li>
+            <li><a class="dropdown-item" href="./paginas/nosotros.html">nosotros</a></li>
+            <li><a class="dropdown-item" href="./paginas/contacto.html">contacto</a></li>
+            <li><a class="dropdown-item" href="./paginas/post-venta.html">post venta</a></li>
+        </ul>
+        </div>
+        <!--navbar escritorio-->
+        <a href="../index.html"><img src="../recursos/logos/diamante-logo.png" alt="logo empresa" width="100px">
+        </a>
+        <a class="navbar__link" href="./autos.html">autos</a>
+        <a class="navbar__link" href="./financiacion.html">financiacion</a>
+        <a class="navbar__link" href="./nosotros.html">nosotros</a>
+        <a class="navbar__link" href="./contacto.html">contacto</a>
+        <a class="navbar__link" href="./post-venta.html">post venta</a>
+    </nav>
+    <!--baner para aclarar los precios publicados-->
+    <div class="card">
+        <div class="card-header">
+            AVISO ES IMPORTANTE LEER ANTES DE CONTINUAR 
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">formas de pago y precios publicados</h5>
+            <p class="card-text tarjeta__texto">A toda la clientela le informamos que a partir del 08/03/2023 los precios de nuetra pagina web seran actualizados en dolares a continuacion te dejamos un enlace a contacto en donde si te pones en contacto con nosotros te explicaremos mejor la forma de pago</p>
+            <a href="./contacto.html" class="btn btn-secondary btn-lg btn-block">ir a contacto...</a>
+        </div>
+        </div>
+</header>
+<main>
+    <div class="row row-cols-1 row-cols-md-3 g-4 border border-0">
+        <div class="col col tarjeta-auto__col border border-0">
+            <div class="card">
+            <img src="../recursos/autos/4x4.jpg" class="card-img-top tarjeta-autos__img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title tarjetas__titulo ">hilux 2023 $50.000</h5>
+                <p class="card-text tarjeta__texto">descripcion de los autos motor carroceria etc..</p>
+                <a href="#" class="btn btn-secondary btn-lg btn-block">ir al auto...</a>
+            </div>
+            </div>
+        </div>
+        <div class="col tarjeta-auto__col">
+            <div class="card">
+            <img src="../recursos/autos/autito.jpg" class="card-img-top tarjeta-autos__img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title tarjetas__titulo">peugeot 808 $35.000</h5>
+                <p class="card-text tarjeta__texto">descripcion de los autos motor carroceria etc..</p>
+                <a href="#" class="btn btn-secondary btn-lg btn-block">ir al auto...</a>
+            </div>
+            </div>
+        </div>
+        <div class="col ">
+    <div class="card">
+            <img src="../recursos/autos/corola.jpg" class="card-img-top tarjeta-autos__img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title tarjetas__titulo">toyota corolla $25.000</h5>
+                <p class="card-text tarjeta__texto ">descripcion de los autos motor carroceria etc..</p>
+                <a href="#" class="btn btn-secondary btn-lg btn-block">ir al auto...</a>
+            </div>
+            </div>
+        </div>
+        <div class="col tarjeta-auto__col">
+            <div class="card">
+            <img src="../recursos/autos/camaro.jpg" class="card-img-top tarjeta-autos__img" alt="...">
+            <div class="card-body">
+                <h5 class="card-title tarjetas__titulo">chevrolet camaro 2023 $75.000</h5>
+                <p class="card-text tarjeta__texto">descripcion de los autos motor carroceria etc..</p>
+                <a href="#" class="btn btn-secondary btn-lg btn-block">ir al auto...</a>
+            </div>
+            </div>
+        </div>
+        <div class="col tarjeta-auto__col">
+            <div class="card">
+                <img src="../recursos/autos/mercedes1.jpg" class="card-img-top tarjeta-autos__img" alt="...">
+                <div class="card-body">
+                <h5 class="card-title tarjetas__titulo">mercebes benz 2023 $135.000</h5>
+                <p class="card-text tarjeta__texto">descripcion de los autos motor carroceria etc..</p>
+                <a href="#" class="btn btn-secondary btn-lg btn-block">ir al auto...</a>
+                </div>
+            </div>
+            </div>
+        <div class="col tarjeta-auto__col">
+        <div class="card">
+                <img src="../recursos/autos/jeep.jpg" class="card-img-top tarjeta-autos__img" alt="...">
+                <div class="card-body">
+                <h5 class="card-title tarjetas__titulo">jeep rubicon $250.000</h5>
+                <p class="card-text tarjeta__texto">descripcion de los autos motor carroceria etc..</p>
+                <a href="#" class="btn btn-secondary btn-lg btn-block">ir al auto...</a>
+                </div>
+            </div>
+            </div>
+        </div>
+
+        <section id="flechas">
+            <div >
+                <a href="#">
+                    <img class="flechas__img" src="../recursos/logos/arrow-left.svg" alt="flecha">
+            </a>
+            </div>
+            <div >
+                <a href="#">
+                    <img class="flechas" src="../recursos/logos/arrow-right.svg" alt="flecha">
+                </a>
+            </div>
+
+        </section>
+</main>
+    <footer>
+        <div class="box__footer">
+        
+            <div class="colunm1__footer">
+            <h1 class="titulos__footer">mas informacion de la compañia</h1>
+        
+            <p class="texto__footer">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo neque qui, voluptatum et autem commodi obcaecati tempore dicta voluptas fuga dignissimos saepe modi at ipsam error voluptates consequatur deleniti recusandae.
+            </p>
+            </div>
+            <div class="colunm2__footer">
+            <h1 class="titulos__footer">contactanos</h1>
+            <div class="row2__footer"> 
+                <img src="../recursos/img footer/facebook.png" alt="facebook">
+                <label class="texto__footer">
+                    diamond car ar
+                </label>
+            </div>
+        
+            <div class="row2__footer"> 
+                <img src="../recursos/img footer/instagram.png">
+                <label class="texto__footer">
+                    diamond.car.ar
+                </label>
+            </div>
+        
+                <div class="row2__footer"> 
+                    <img src="../recursos/img footer/llamada-telefonica.png">
+                    <label class="texto__footer">
+                        +58-11-2049-5576
+                    </label>
+                </div>
+        
+            </div>
+            
+            <div class="colunm3__footer">
+                <h1 class="titulos__footer">nuetras sucursales</h1>
+                <div class="row3__footer">
+                <img src="../recursos/img footer/casa.png" alt="home">
+                <label class="texto__footer">av.rivadavia 1866, capital federal buenos aires argentina </label>
+            </div>
+            <div class="row3__footer">
+                <img src="../recursos/img footer/casa.png" alt="home">
+                <label class="texto__footer">av. independecia 3675, merlo provincia de buenos aires</label>
+            </div>
+            </div>
+            </div> 
+            </footer>
+    <script src="../bootstrap/bootstrap-5.3.0-alpha1-dist/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -24,14 +24,18 @@ nav{
     color: black;
     font-family: "russo-regular";
     text-decoration: none;
-    cursor: pointer;
-}
+    border-radius: 5px;
+    cursor: pointer}
+
 .navbar__link:hover{
     background: black;
     color: white;
     border-radius: 5px;
     padding: 10px;
     font-size: 30px;
+}
+.dropdown{
+    display: none;
 }
 /*encabezado*/
 #encabezado{
@@ -61,12 +65,14 @@ nav{
     font-size: 55px;
     color: rgb(36, 137, 187);
     padding: 5px;
+    justify-content: center;
     position: relative;
 }
 .encabezado__subtitulo{
     font-family: "russo-regular";
     font-size: 20px;
     position: relative;
+    justify-content: center;
     justify-content: center;
 
 }
@@ -110,26 +116,23 @@ list-style-type: none;
 /*desarrollando el footer*/
 footer{
     background-color: rgb(255, 255, 255);
+    padding: 40px;
 }
 .box__footer{
-    max-width: 1200px;
+    max-width: 1800px;
+    background-color:rgb(36, 137, 187) ;
     display: flex;
+    justify-content: space-between;
     margin: auto;
-}
-.colunm1__footer{
-    max-width: 400px;
-}
-.titulos__footer{
-    font-family: "russo regular";
-    font-size: 30px;
-
-}
-.colunm1__footer p{
-    font-size: 20px;
     font-family: "roboto regular";
 }
+.colunm1__footer{
+    max-width: 600px;
+}
+
+;
 .colunm2__footer {
-    max-width: 400px;
+    max-width: 600px;
 }
 
 .row2__footer{
@@ -145,9 +148,100 @@ footer{
     margin-top: 10px;
     margin-left: 20px;
     font-size: 20px;
-    font-family: "roboto regular"
+}
+.colunm3__footer{
+    max-width: 600px;
+}
+.row3__footer img{
+    width: 65px;
+    height: 66px;
+    background-size: cover;
+}
+.row3__footer{
+    display: flex;
+
+}
+/*desarrollando las tarjetas de la pagina de auto*/
+.tarjeta-autos__img{
+    width: 400px;
+    height: 500px;
+    background-size: cover;
+    border-radius: 5px;
+
 }
 
+/*trabajando en las flechas del baner*/
+#flechas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    
+}
+
+
+/*responsive header*/
+@media screen and (max-width: 1350px){
+    .encabezado__titulo{
+        font-size: 45px;
+        justify-content: center;
+    }
+    .encabezado__subtitulo{
+        font-size: 18;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 750px){
+    .encabezado__subtitulo{
+        font-size: 30px;
+        justify-content: center;
+    }
+    .encabezado__subtitulo{
+        font-size: 15px;
+        justify-content: center;
+    }
+}
+
+/* responsive navbar*/
+@media screen and (max-width: 1350px){
+nav{
+padding: 10px;
+}
+.navbar__link{
+    font-size: 25px;
+}
+.navbar__link:hover{
+    font-size: 25px;
+}
+}
+
+@media screen and (max-width: 938px){
+.navbar__link{
+    font-size: 20px;
+}
+.navbar__link:hover{
+    font-size: 20px;
+}
+}
+@media screen and (max-width: 750px){
+.navbar__link{
+    display: none;
+}
+.dropdown{
+    display: block;
+}
+}
+/*responsive footer*/
+@media screen and (max-width: 970px){
+    .box__footer{
+        flex-wrap: wrap;
+    }
+    .colunm1__footer,
+    .colunm2__footer,
+    .colunm3__footer{
+        margin-top: 40px;
+    }
+}
 
 
 
